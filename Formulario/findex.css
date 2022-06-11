@@ -1,0 +1,179 @@
+/*Css de Estructura*/
+body{
+
+    background-image: 
+    url('https://cdn.wallpapersafari.com/86/94/NGPF19.jpeg');
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+   width: 100%;
+   background-attachment: fixed;
+}
+
+.contenedor{
+    display:flex;
+    background-color: rgba(71, 71, 238, 0.808);
+    border-radius: 15px;
+    flex-direction: column;
+    width: 75%;
+    height:auto;
+margin-left: 150px;
+margin-top: 50px;
+}
+
+.grupo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+strong{color: rgb(47, 255, 6);}
+header{
+    font-family: 'monospace', 'consolas';
+    text-align: center;
+    color: white;
+}
+
+#name-label,#email-label,#number-label{
+
+    color:white;
+    font-family: 'consolas', 'monsopace';
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    
+}
+
+#name,#email,#phone-number{
+
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+p, span{
+    color:white;
+    font-family: 'consolas','monospace';
+    font-weight: bold;
+}
+
+
+#dropdown{
+border-radius: 4px;
+background-color: #FFFF;
+font-family: 'monospace','consolas';
+margin-bottom: 40px;
+margin-top: 10px;
+font-weight: bold;
+
+}
+
+#genre{
+    padding-top: 20px;
+    border: solid 1px #FFFF;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+#genre label:hover{
+
+color: #FF0000;
+}
+
+#genre label{
+
+    padding-left:30px;
+    color:#FFFF;
+    font-weight: bold;
+    font-family: 'consolas','monospace';
+    padding-right: 30px;
+
+}
+
+.grupo1 label{
+    color: #FFFF;
+    font-family: 'consolas','monospace';
+    font-weight: bold;
+
+}
+#consolas p,span{
+
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+.grupo1 {
+
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.select{
+
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: stretch;
+align-content: space-around;
+
+
+}
+
+h3{
+    font-family: 'consolas','monospace';
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+textarea{
+
+    border-radius: 5px;
+
+}
+
+.grupo button{
+
+    margin-top: 10px;
+    padding: 5px 30px;
+    background-color: rgb(47, 255, 6);
+    border-color: rgb(47, 255, 6);
+    border-radius: 5px;
+    font-family: 'monospace','consolas';
+    font-weight: bold;
+}
+
+.grupo button:hover{
+
+color:#FF0000;
+pointer-events:visible;
+animation-name: pulse;
+animation-duration:1s;
+animation-fill-mode:forwards;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes pulse{
+
+    50%{
+        transform: scale(1.1);
+    }
+    100%{ transform: scale (1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

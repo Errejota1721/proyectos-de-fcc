@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/findex.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <div class="contenedor">
+    <header class="header">
+       <h1 id="title"> Haz tu aporte para mejorar la experiencia</h1>
+<p id="description">Necesitamos de tu ayuda <strong>¡Completa esta encuesta!</strong></p>
+</header>
+
+<form  id="survey-form">
+
+    <div class="grupo">
+    <label for="name" id="name-label"> Nickname*:</label>
+    <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+</div>
+
+    <div class="grupo">
+    <label for="email" id="email-label">Email*:</label>
+    <input type="email" id="email" name="email" placeholder="Ingrese su Correo" required >
+</div>
+
+    <div class="grupo">
+    <label for="phone" id="number-label">Número de teléfono (opcional):</label>
+    <input type="number" id="number" name="phone" min="10" max="20" placeholder="Ingrese su número de Teléfono">
+</div>
+
+<div class="grupo">
+    <p>¿Cual es tu nivel?</p>
+    <select id="dropdown" name="pdropdown" class="grupo2" required>
+        <option disabled selected value>Selecciona una opción</option>
+        <option value="principiante">Principiante</option>
+        <option value="novato">Novato</option>
+        <option value="intermedio">Intermedio</option>
+        <option value="avanzado">Avanzado</option>
+    </select>
+</div>
+
+<div class="grupo" >
+<p>¿Cuál es tu género favorito?<span>(Selecciona los que gustes)</span> <br>
+    
+    <div id="genre">
+   <label >
+       <input type="checkbox" value="accion" class="checkbox-in">
+       Accion
+   </label>
+
+   <label>
+       <input type="checkbox" value="aventura" class="checkbox-in">
+       Aventura
+   </label>
+<label >
+    <input  type="checkbox" value="terror" class="checkbox-in">
+    Terror
+</label>
+
+<label >
+    <input type="checkbox" value="carrera" class="checkbox-in">
+Carreras
+</label>
+
+</div>
+</div>
+
+<div class="grupo1">
+
+    <div id="consolas">
+    <p>Ingresa Tu consola <span>(Solo puedes escoger una)</span></p>
+</div>
+
+<div class="select">
+<label>
+        <input type="radio" name="consola"  value="pc" checked>
+        PC
+    </label>
+
+<label>
+    <input type="radio" name="consola"  value="xbox">
+    XBOX
+</label>
+
+<label>
+    <input type="radio" value="play station" name="consola">
+    Play Station
+</label>
+
+<label>
+    <input type="radio"  value="nintendo switch"name="consola">
+Nintendo Switch</label>
+
+</div>
+</div>
+
+<div class="grupo">
+    <h3>¡Déjanos tu comentario o sugerencia!</h3>
+
+    <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Ingresa tu comentario..."></textarea>
+
+<button id="submit"> Submit</button>
+
+
+</div>
+
+
+</form>
+</div>
+</body>
+</html>
